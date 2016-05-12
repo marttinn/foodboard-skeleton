@@ -2,12 +2,103 @@
 
 <html>
     <head>
-    <meta charset="UTF-8">
-    <title>Foodboard | Find delicious local food</title>
+        <meta charset="UTF-8">
+        <title>Foodboard | Find delicious local food</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
     </head>
 
     <body>
-        <h1>You still need to go out and get it tho...</h1>
+        <header>
+            <h1 class="logo">Foodboard</h1>
+            <img src="img/logo.png">
+
+            <select>
+              <option value="mexico">México</option>
+              <option value="austin">Austin</option>
+              <option value="sf">San Francisco</option>
+              <option value="guadalajara">Guadalajara</option>
+            </select>
+
+        </header>
+        <section class="helper">
+
+            <div class="filters">
+                <button>$ <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+
+                <button>♡ <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+            </div>
+            <form>
+              <input type="search" name="filter" placeholder="Search..." class="search-box">
+              <button type="submit" class="envio">
+                  <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+        </section>
+        <section class="containers">
+            <div class="row">
+                <div class="dish">
+                    <img src="img/taco1.jpg">
+                    <div class="detail">
+                        <h3 class="dishname">Tacos árabes</h3>
+                        <p class="km">2km</p>
+                        <p>$40</p>
+                    </div>
+                </div>
+                <div class="dish">
+                    <img src="img/taco2.jpg">
+                    <div class="detail">
+                        <h3 class="dishname">Tacos de suadero</h3>
+                        <p class="km">8km</p>
+                        <p>$9</p>
+                    </div>
+                </div>
+                <div class="dish">
+                    <img src="img/pizza.jpg">
+                    <div class="detail">
+                        <h3 class="dishname">Pizza Boneless</h3>
+                        <p class="km">4km</p>
+                        <p>$270</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="dish">
+                    <img src="img/burger.jpg">
+                    <div class="detail">
+                        <h3 class="dishname">Hamburguesa Pibe</h3>
+                        <p class="km">7km</p>
+                        <p>$140</p>
+                    </div>
+                </div>
+                <div class="dish">
+                    <img src="img/burger.jpg">
+                    <div class="detail">
+                        <h3 class="dishname">Hotdog Ramirez</h3>
+                        <p class="km">1km</p>
+                        <p>$59</p>
+                    </div>
+                </div>
+                <div class="dish">
+                    <img src="img/burger.jpg">
+                    <div class="detail">
+                        <h3 class="dishname">Enchiladas Suizas</h3>
+                        <p class="km">2km</p>
+                        <p>$110</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-more">
+                <button class="more">
+                    More
+                </button>
+
+            </div>
+        </section>
     </body>
 
 </html>

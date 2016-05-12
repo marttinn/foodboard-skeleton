@@ -1,0 +1,148 @@
+body, html{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    padding: 0 60px;
+    min-width: 800px;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 4em;
+    margin: 0;
+    margin-top: 30px;
+}
+
+header img{
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
+
+header select {
+    float: right;
+    background-color: transparent;
+    color: black;
+    border: none;
+    width: 240px;
+    font-size: 2em;
+    /* text-decoration: underline; */
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.helper button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    width: 150px;
+    font-size: 2em;
+    /* text-decoration: underline; */
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.helper form{
+    display: inline-block;
+}
+
+.helper {
+    margin-right: 30px;
+    float: right;
+}
+
+.filters{
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.search-box{
+    background-color: transparent;
+    color: black;
+    border: none;
+    width: 300px;
+    font-size: 2em;
+    /*text-decoration: underline;*/
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 2px;
+    border-bottom: solid #000;
+  }
+
+.envio{
+    background-color: transparent;
+    border: none;
+    width: 40px!important;
+    margin-right: 0!important;
+
+}
+
+.row{
+    width: 100%;
+    display: inline-block;
+}
+
+.row * {
+    display: inline-block;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
+
+.dish img {
+    height: 200px;
+    border-radius: 3%;
+
+}
+
+.dish {
+    width: 33%;
+    text-align: center;
+}
+
+.containers{
+    margin-top: 170px;
+}
+
+.detail * {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.detail h3{
+    float: left;
+    margin-right: 30px;
+}
+
+.detail .km {
+    margin-right: 10px;
+
+}
+
+.more{
+    text-align: center;
+    background-color: transparent;
+    font-size: 3em;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    border: none;
+}
+
+.row-more{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

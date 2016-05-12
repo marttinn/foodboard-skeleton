@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Foodboard | Find delicious local food, Detail</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>Foodboard</h1>
+            <img src="img/logo.png">
+
+            <select>
+              <option value="mexico">México</option>
+              <option value="austin">Austin</option>
+              <option value="sf">San Francisco</option>
+              <option value="guadalajara">Guadalajara</option>
+            </select>
+
+        </header>
+
+        <section>
+            <a href="back">Back</a>
+            <div class="product">
+                <form>
+                    <input type="file" name="photo" accept="image/*">
+                    <div class="description">
+                        <input type="text" name="dish" placeholder="Nombre del Platillo"><br>
+                        <input type="number" name="price" placeholder="$00.00"><br>
+                        <input type="text" name="location" placeholder="Nombre del Restaurante"><br>
+                        <input type="text" name="city" placeholder="Ciudad"><br>
+                        <input type="submit" value="Guardar">
+                    </div>
+                </form>
+        </section>
+    </body>
+</html>
