@@ -3,12 +3,16 @@
 <html>
     <head>
     <meta charset="UTF-8">
-    <title>Foodboard | Find delicious local food, Detail</title>
+    <title>Foodboard | Find delicious local food</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+
     </head>
 
     <body>
         <header>
-            <h1>Foodboard</h1>
+            <h1 class="logo">Foodboard</h1>
             <img src="img/logo.png">
 
             <select>
@@ -20,15 +24,17 @@
 
         </header>
 
-        <section>
-            <a href="back">Back</a>
+        <section class="prod">
+            <a href="back" class="back">< Back</a>
             <div class="product">
-                <img src="img/taco"/>
+                <img src="img/tacobig.jpg" class="bigOne"/>
                 <div class="description">
-                    <h3>Tacos árabes</h3>
-                    <p>$40</p>
-                    <p>Taquería Bagdad <br> A 2km </p>
-                    <h2>2 ♥️</h2>
+                    <h3 class="dishname">Tacos árabes</h3>
+                    <p class="price">$40</p>
+                    <div class="secondrow">
+                        <a href="#"><p class="place">Taquería Bagdad <br> A 2km </p></a>
+                        <a href="#" class="liker"><h2 class="likes">2 ♥️</h2></a>
+                    </div>
                 </div>
         </section>
     </body>

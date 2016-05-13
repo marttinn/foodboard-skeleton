@@ -13,26 +13,40 @@
             <h1>Foodboard</h1>
             <img src="img/logo.png">
 
-            <select>
+            <!-- <select>
               <option value="mexico">México</option>
               <option value="austin">Austin</option>
               <option value="sf">San Francisco</option>
               <option value="guadalajara">Guadalajara</option>
-            </select>
+            </select> -->
 
         </header>
 
-        <section>
-            <a href="back">Back</a>
-            <div class="product">
-                <form>
-                    <input type="file" name="photo" accept="image/*">
+        <section class="newprod">
+            <a href="back" class="back">< Back</a>
+            <div class="newproduct">
+                <form id="newdish">
+                    <div class="image-upload">
+                        <label for="file-input">
+                            <img src="img/imageupload.jpg"/>
+                        </label>
+
+                        <input id="file-input" name="" type="file" accept="image/*"/>
+                    </div>
                     <div class="description">
-                        <input type="text" name="dish" placeholder="Nombre del Platillo"><br>
-                        <input type="number" name="price" placeholder="$00.00"><br>
-                        <input type="text" name="location" placeholder="Nombre del Restaurante"><br>
-                        <input type="text" name="city" placeholder="Ciudad"><br>
-                        <input type="submit" value="Guardar">
+                        <input class="nameinput" type="text" name="dish" placeholder="Nombre del Platillo">
+                        <input class="priceinput" type="number" name="price" placeholder="$00.00"><br>
+                        <div class="segundo">
+                            <input class="placeinput" type="text" name="location" placeholder="Nombre del Restaurante"><br>
+                            <!-- <input class="cityinput" type="text" name="city" placeholder="Ciudad"> -->
+                            <select class="cityinput" name="city" form="newdish">
+                                <option value="mexico">México</option>
+                                <option value="austin">Austin</option>
+                                <option value="sf">San Francisco</option>
+                                <option value="guadalajara">Guadalajara</option>
+                            </select>
+                            <input class="saver" type="submit" value="Save">
+                        </div>
                     </div>
                 </form>
         </section>

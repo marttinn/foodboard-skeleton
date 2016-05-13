@@ -32,6 +32,8 @@ header select {
     margin-top: 50px;
     margin-right: 30px;
     font-family: 'Lato', sans-serif;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
 }
 
 .helper button {
@@ -145,4 +147,154 @@ textarea:focus, input:focus{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+
+
+/*  DETAIL  */
+
+.back{
+    color: black;
+    text-decoration: none;
+}
+
+.prod{
+    text-align: center;
+    margin-top: 30px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.bigOne{
+    height: 400px;
+    width: inherit;
+}
+
+.back{
+    font-size: 2em;
+}
+
+.product{
+    margin-top: 10px;
+}
+
+.description{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 20px 40px;
+}
+
+.dishname{
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.price{
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    margin-top: 15px;
+}
+
+.secondrow a{
+    text-decoration: none;
+    color: white;
+}
+
+.place{
+    display: inline-block;
+}
+
+.likes{
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+}
+
+.liker{
+    float: right;
+}
+
+
+/**** NEW ******/
+.newprod{
+    text-align: center;
+    margin-top: 30px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 530px;
+    cursor: pointer;
+}
+
+.newproduct{
+    margin-top: 10px;
+}
+
+.description > input {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.segundo > input {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.nameinput {
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.priceinput{
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    margin-top: 15px;
+    width: 100px;
+}
+
+.segundo{
+    margin-top: 20px;
+}
+
+.saver{
+    float: right;
+    background-color: red!important;
+    color: white!important;
+    font-size: 1.5em;
+    padding: 4px 20px;
+    margin-top: -20px;
+    margin-right: 10px;
+}
+
+.placeinput{
+    font-size: 1em;
+    width: 340px;
+}
+
+.cityinput{
+    font-size: 1em;
+}
+
+ .cityinput {
+    background-color: transparent;
+    color: white;
+    border: none;
+    /* text-decoration: underline; */
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    -webkit-border-radius: 0px;
 }
