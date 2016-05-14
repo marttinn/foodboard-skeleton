@@ -298,3 +298,19 @@ textarea:focus, input:focus{
     font-family: 'Lato', sans-serif;
     -webkit-border-radius: 0px;
 }
+
+.remover{
+
+    border: none;
+    background-color: transparent;
+    margin-left: 520px;
+    margin-top: -25px;
+    overflow: overlay;
+    z-index: 100;
+    display: none;
+    position: absolute;
+}
+
+.closeimg{
+    height: 30px;
+}
