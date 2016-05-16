@@ -36,6 +36,10 @@ header select {
     -webkit-border-radius: 0px;
 }
 
+.logoimg{
+    height: 85px;
+}
+
 .helper button {
     background-color: transparent;
     color: black;
