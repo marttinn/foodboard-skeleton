@@ -125,7 +125,9 @@ textarea:focus, input:focus{
 .detail * {
     margin: 0;
     margin-bottom: 20px;
-    margin-top: 5px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 0px;
 }
 
 .detail h3{
@@ -134,8 +136,11 @@ textarea:focus, input:focus{
 }
 
 .detail .km {
-    margin-right: 10px;
+    margin-right: 5px;
+}
 
+.detail {
+    width: 275px;
 }
 
 .more{
@@ -190,7 +195,7 @@ textarea:focus, input:focus{
 
 .dishname{
     display: inline-block;
-    font-size: 2em;
+    /* font-size: 2em; */
     margin-top: 10px;
 }
 
@@ -317,4 +322,11 @@ textarea:focus, input:focus{
 
 .closeimg{
     height: 30px;
+}
+
+.pricer{
+    margin-right: 10px;
+    float: right;
+    margin-right: 0;
+    margin-left: 10px;
 }
